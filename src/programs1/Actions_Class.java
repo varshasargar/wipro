@@ -18,6 +18,7 @@ public class Actions_Class {
 		Thread.sleep(3000);
 		WebElement target1 = driver.findElement(By.xpath("//a[@class=\"gb_j\"]"));
 		a.click(target1).perform();
+		System.out.println("Action class");
 
 	}
 
